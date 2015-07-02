@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Tutorials</title><link href="http://archerimagine.github.io/" rel="alternate"></link><link href="http://archerimagine.github.io/feeds/all.atom.xml" rel="self"></link><id>http://archerimagine.github.io/</id><updated>2015-07-02T00:00:00+05:30</updated><entry><title>myBlogDevelopment</title><link href="http://archerimagine.github.io/myblogdevelopment.html" rel="alternate"></link><updated>2015-07-02T00:00:00+05:30</updated><author><name>Archer Imagine</name></author><id>tag:archerimagine.github.io,2015-07-02:myblogdevelopment.html</id><summary type="html">&lt;h1&gt;myBlogDevelopment&lt;/h1&gt;
+&lt;p&gt;This is a repository is to make my own website, which will be static at first and then will try to change it to dynamic.&lt;/p&gt;
+&lt;p&gt;This task has a lot of background work which needs to be completed before we can jump right into it.&lt;/p&gt;
+&lt;p&gt;I will share and update this main README file, when something I found is generic, remaining I will post it inside the respective folders README.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Pelican.&lt;ul&gt;
+&lt;li&gt;&lt;a href="Pelican/ReadMe.md"&gt;Pelican Configuration &lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;GitHub.&lt;ul&gt;
+&lt;li&gt;Before we buy a domain, or even think of web hosting, we can use GitHub Pages, to test these local blog pages, and once we are satisfied we will decide on moving it to a web hosting environment.&lt;/li&gt;
+&lt;li&gt;I have created a &lt;code&gt;gh-pages&lt;/code&gt; branch for this, and the URL of the static site will be &lt;a href="http://archerimagine.github.io/myBlogDevelopment/mySite/"&gt;MYSITE&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Here are some links for GitHub pages.&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://pages.github.com/"&gt;GitHub Pages &lt;/a&gt;, select the project Site.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://help.github.com/categories/github-for-mac/"&gt;GitHub for Mac Help, to find how to change branches in it.&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</summary></entry></feed>
