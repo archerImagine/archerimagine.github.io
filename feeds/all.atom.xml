@@ -1,5 +1,67 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Tutorials</title><link href="http://archerimagine.github.io/" rel="alternate"></link><link href="http://archerimagine.github.io/feeds/all.atom.xml" rel="self"></link><id>http://archerimagine.github.io/</id><updated>2015-07-08T00:00:00+05:30</updated><entry><title>myBlogDevelopment</title><link href="http://archerimagine.github.io/myblogdevelopment.html" rel="alternate"></link><updated>2015-07-08T00:00:00+05:30</updated><author><name>Archer Imagine</name></author><id>tag:archerimagine.github.io,2015-07-08:myblogdevelopment.html</id><summary type="html">&lt;h1&gt;myBlogDevelopment&lt;/h1&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Tutorials</title><link href="http://archerimagine.github.io/" rel="alternate"></link><link href="http://archerimagine.github.io/feeds/all.atom.xml" rel="self"></link><id>http://archerimagine.github.io/</id><updated>2015-07-11T00:00:00+05:30</updated><entry><title>Pelican Getting Started</title><link href="http://archerimagine.github.io/pelicanGettingStarted.html" rel="alternate"></link><updated>2015-07-11T00:00:00+05:30</updated><author><name>Archer Imagine</name></author><id>tag:archerimagine.github.io,2015-07-11:pelicanGettingStarted.html</id><summary type="html">&lt;h1&gt;Quick Start&lt;/h1&gt;
+&lt;p&gt;Now we have the installation completed,  &lt;a href="http://archerimagine.github.io/pelicanInstallation.html"&gt;Pelican Installation &lt;/a&gt;. We are ready to getting started by making a sample blog, Pelican has an inbuilt utility to make it, we can execute it by issuing the command.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;pelican-quickstart
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;If every thing is fine, you will get a set of question which we will discuss later, but if something is wrong, like in my case, I was on Mac OS X, and it gave me this error.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span class="n"&gt;Traceback&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;most&lt;/span&gt; &lt;span class="n"&gt;recent&lt;/span&gt; &lt;span class="n"&gt;call&lt;/span&gt; &lt;span class="n"&gt;last&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+  &lt;span class="n"&gt;File&lt;/span&gt; &lt;span class="s"&gt;&amp;quot;/Users/user/anaconda/bin/pelican-quickstart&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;line&lt;/span&gt; &lt;span class="mi"&gt;7&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="o"&gt;&amp;lt;&lt;/span&gt;&lt;span class="n"&gt;module&lt;/span&gt;&lt;span class="o"&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;pelican.tools.pelican_quickstart&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;main&lt;/span&gt;
+  &lt;span class="n"&gt;File&lt;/span&gt; &lt;span class="s"&gt;&amp;quot;/Users/user/anaconda/lib/python2.7/site-packages/pelican/__init__.py&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;line&lt;/span&gt; &lt;span class="mi"&gt;20&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="o"&gt;&amp;lt;&lt;/span&gt;&lt;span class="n"&gt;module&lt;/span&gt;&lt;span class="o"&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;pelican.generators&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;ArticlesGenerator&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;PagesGenerator&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
+  &lt;span class="n"&gt;File&lt;/span&gt; &lt;span class="s"&gt;&amp;quot;/Users/user/anaconda/lib/python2.7/site-packages/pelican/generators.py&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;line&lt;/span&gt; &lt;span class="mi"&gt;22&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="o"&gt;&amp;lt;&lt;/span&gt;&lt;span class="n"&gt;module&lt;/span&gt;&lt;span class="o"&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;pelican.readers&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;Readers&lt;/span&gt;
+  &lt;span class="n"&gt;File&lt;/span&gt; &lt;span class="s"&gt;&amp;quot;/Users/user/anaconda/lib/python2.7/site-packages/pelican/readers.py&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;line&lt;/span&gt; &lt;span class="mi"&gt;9&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="o"&gt;&amp;lt;&lt;/span&gt;&lt;span class="n"&gt;module&lt;/span&gt;&lt;span class="o"&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;docutils.core&lt;/span&gt;
+  &lt;span class="n"&gt;File&lt;/span&gt; &lt;span class="s"&gt;&amp;quot;/Users/user/anaconda/lib/python2.7/site-packages/docutils/core.py&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;line&lt;/span&gt; &lt;span class="mi"&gt;20&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="o"&gt;&amp;lt;&lt;/span&gt;&lt;span class="n"&gt;module&lt;/span&gt;&lt;span class="o"&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;docutils&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;frontend&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;io&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;utils&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;readers&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;writers&lt;/span&gt;
+  &lt;span class="n"&gt;File&lt;/span&gt; &lt;span class="s"&gt;&amp;quot;/Users/user/anaconda/lib/python2.7/site-packages/docutils/frontend.py&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;line&lt;/span&gt; &lt;span class="mi"&gt;41&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="o"&gt;&amp;lt;&lt;/span&gt;&lt;span class="n"&gt;module&lt;/span&gt;&lt;span class="o"&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;docutils.utils&lt;/span&gt;
+  &lt;span class="n"&gt;File&lt;/span&gt; &lt;span class="s"&gt;&amp;quot;/Users/user/anaconda/lib/python2.7/site-packages/docutils/utils/__init__.py&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;line&lt;/span&gt; &lt;span class="mi"&gt;20&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="o"&gt;&amp;lt;&lt;/span&gt;&lt;span class="n"&gt;module&lt;/span&gt;&lt;span class="o"&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;docutils.io&lt;/span&gt;
+  &lt;span class="n"&gt;File&lt;/span&gt; &lt;span class="s"&gt;&amp;quot;/Users/user/anaconda/lib/python2.7/site-packages/docutils/io.py&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;line&lt;/span&gt; &lt;span class="mi"&gt;18&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="o"&gt;&amp;lt;&lt;/span&gt;&lt;span class="n"&gt;module&lt;/span&gt;&lt;span class="o"&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;docutils.utils.error_reporting&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;locale_encoding&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;ErrorString&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;ErrorOutput&lt;/span&gt;
+  &lt;span class="n"&gt;File&lt;/span&gt; &lt;span class="s"&gt;&amp;quot;/Users/user/anaconda/lib/python2.7/site-packages/docutils/utils/error_reporting.py&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;line&lt;/span&gt; &lt;span class="mi"&gt;47&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="o"&gt;&amp;lt;&lt;/span&gt;&lt;span class="n"&gt;module&lt;/span&gt;&lt;span class="o"&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class="n"&gt;locale_encoding&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;locale&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;getlocale&lt;/span&gt;&lt;span class="p"&gt;()[&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt; &lt;span class="ow"&gt;or&lt;/span&gt; &lt;span class="n"&gt;locale&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;getdefaultlocale&lt;/span&gt;&lt;span class="p"&gt;()[&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
+  &lt;span class="n"&gt;File&lt;/span&gt; &lt;span class="s"&gt;&amp;quot;/Users/user/anaconda/lib/python2.7/locale.py&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;line&lt;/span&gt; &lt;span class="mi"&gt;543&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="n"&gt;getdefaultlocale&lt;/span&gt;
+    &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="n"&gt;_parse_localename&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;localename&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+  &lt;span class="n"&gt;File&lt;/span&gt; &lt;span class="s"&gt;&amp;quot;/Users/user/anaconda/lib/python2.7/locale.py&amp;quot;&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;line&lt;/span&gt; &lt;span class="mi"&gt;475&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="n"&gt;_parse_localename&lt;/span&gt;
+    &lt;span class="k"&gt;raise&lt;/span&gt; &lt;span class="ne"&gt;ValueError&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s"&gt;&amp;#39;unknown locale: &lt;/span&gt;&lt;span class="si"&gt;%s&lt;/span&gt;&lt;span class="s"&gt;&amp;#39;&lt;/span&gt; &lt;span class="o"&gt;%&lt;/span&gt; &lt;span class="n"&gt;localename&lt;/span&gt;
+&lt;span class="ne"&gt;ValueError&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="n"&gt;unknown&lt;/span&gt; &lt;span class="n"&gt;locale&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="n"&gt;UTF&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="mi"&gt;8&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h2&gt;ValueError: unknown locale: UTF-8&lt;/h2&gt;
+&lt;p&gt;We get a &lt;code&gt;ValueError&lt;/code&gt;, Now the solution of this is proposed in one Stackoverflow Question &lt;a href="http://stackoverflow.com/questions/19961239/pelican-3-3-pelican-quickstart-error-valueerror-unknown-locale-utf-8"&gt;here&lt;/a&gt;, &lt;/p&gt;
+&lt;p&gt;We have to add these two line in our bashrc file.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;export LC_ALL=en_US.UTF-8
+export LANG=en_US.UTF-8
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Once we add this line, we can again issue the &lt;code&gt;pelican-quickstart&lt;/code&gt; command to get to the 10 question.&lt;/p&gt;</summary></entry><entry><title>Pelican Installation</title><link href="http://archerimagine.github.io/pelicanInstallation.html" rel="alternate"></link><updated>2015-07-09T00:00:00+05:30</updated><author><name>Archer Imagine</name></author><id>tag:archerimagine.github.io,2015-07-09:pelicanInstallation.html</id><summary type="html">&lt;h1&gt;Install Pelican.&lt;/h1&gt;
+&lt;p&gt;We will start with a short guide to install pelican on to your system.&lt;/p&gt;
+&lt;p&gt;If you use &lt;code&gt;pip&lt;/code&gt; installation is very simple.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;pip install pelican
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h2&gt;Markdown Support&lt;/h2&gt;
+&lt;p&gt;If you write your blog with Markdown format, you need an additional plugin called &lt;code&gt;markdown&lt;/code&gt;, you can again install it using &lt;code&gt;pip&lt;/code&gt;&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre&gt;pip install markdown
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;h2&gt;Additional ways&lt;/h2&gt;
+&lt;p&gt;We can also use &lt;a href="http://www.virtualenv.org/"&gt;virtualenv&lt;/a&gt; to install pelican.&lt;/p&gt;
+&lt;h2&gt;References&lt;/h2&gt;
+&lt;p&gt;Some links which will help you in this regards.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://docs.getpelican.com/en/latest/install.html"&gt;Pelican Docs&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://nafiulis.me/making-a-static-blog-with-pelican.html"&gt;Nafiulis | Making a Static Blog &lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</summary></entry><entry><title>myBlogDevelopment</title><link href="http://archerimagine.github.io/myblogdevelopment.html" rel="alternate"></link><updated>2015-07-08T00:00:00+05:30</updated><author><name>Archer Imagine</name></author><id>tag:archerimagine.github.io,2015-07-08:myblogdevelopment.html</id><summary type="html">&lt;h1&gt;myBlogDevelopment&lt;/h1&gt;
 &lt;p&gt;This is a repository is to make my own website, which will be static at first and then will try to change it to dynamic.&lt;/p&gt;
 &lt;p&gt;This task has a lot of background work which needs to be completed before we can jump right into it.&lt;/p&gt;
 &lt;p&gt;I will share and update this main README file, when something I found is generic, remaining I will post it inside the respective folders README.&lt;/p&gt;
